@@ -1,0 +1,287 @@
+object Form_PadraoCadastro: TForm_PadraoCadastro
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Form_PadraoCadastro'
+  ClientHeight = 455
+  ClientWidth = 643
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -19
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  Visible = True
+  PixelsPerInch = 96
+  TextHeight = 23
+  object Panel_FundoTotal: TPanel
+    Left = 0
+    Top = 0
+    Width = 643
+    Height = 455
+    Align = alClient
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 0
+    object Shape_FundoTotal: TShape
+      Left = 0
+      Top = 0
+      Width = 643
+      Height = 455
+      Align = alClient
+      Brush.Style = bsClear
+      Shape = stRoundRect
+      ExplicitLeft = 360
+      ExplicitTop = 112
+      ExplicitWidth = 65
+      ExplicitHeight = 65
+    end
+    object Panel_Inferior: TPanel
+      Left = 12
+      Top = 357
+      Width = 617
+      Height = 71
+      Margins.Left = 10
+      Margins.Top = 10
+      Margins.Right = 10
+      Margins.Bottom = 10
+      Align = alCustom
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      object Button_Confirma__: TButton
+        Left = 16
+        Top = 6
+        Width = 97
+        Height = 59
+        Caption = 'Confirmar'
+        TabOrder = 0
+        Visible = False
+        OnClick = Button_Confirma__Click
+      end
+      object Button_Cancelar_: TButton
+        Left = 325
+        Top = 6
+        Width = 97
+        Height = 59
+        Caption = 'Cancelar'
+        TabOrder = 3
+        Visible = False
+        OnClick = Button_Cancelar_Click
+      end
+      object Button_Pesquisar_: TButton
+        Left = 222
+        Top = 6
+        Width = 97
+        Height = 59
+        Caption = 'Pesquisar'
+        TabOrder = 2
+        Visible = False
+      end
+      object Button_Sair_: TButton
+        Left = 440
+        Top = 6
+        Width = 97
+        Height = 59
+        Caption = 'Sair'
+        TabOrder = 4
+        Visible = False
+      end
+      object Button_Excluir__: TButton
+        Left = 119
+        Top = 6
+        Width = 97
+        Height = 59
+        Caption = 'Excluir'
+        TabOrder = 1
+        Visible = False
+        OnClick = Button_Excluir__Click
+      end
+      object Panel_Sair: TPanel
+        Left = 438
+        Top = 6
+        Width = 95
+        Height = 59
+        BevelOuter = bvNone
+        TabOrder = 5
+        object Shape_Sair: TShape
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Pen.Color = clRed
+          Shape = stRoundRect
+          ExplicitLeft = 40
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object Button_Sair: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Caption = 'Sair'
+          Flat = True
+          ExplicitLeft = 56
+          ExplicitTop = 16
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel_Cancelar: TPanel
+        Left = 323
+        Top = 6
+        Width = 95
+        Height = 59
+        BevelOuter = bvNone
+        TabOrder = 6
+        object Shape_Cancelar: TShape
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Pen.Color = clRed
+          Shape = stRoundRect
+          ExplicitLeft = 40
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object Button_Cancelar: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Caption = 'Cancelar'
+          Flat = True
+          OnClick = Button_CancelarClick
+          ExplicitLeft = 56
+          ExplicitTop = 16
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel_Pesquisar: TPanel
+        Left = 220
+        Top = 6
+        Width = 95
+        Height = 59
+        BevelOuter = bvNone
+        TabOrder = 7
+        object Shape_Pesquisar: TShape
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Pen.Color = clRed
+          Shape = stRoundRect
+          ExplicitLeft = 40
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object Button_Pesquisar: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Caption = 'Pesquisar'
+          Flat = True
+          ExplicitLeft = 2
+        end
+      end
+      object Panel_Excluir: TPanel
+        Left = 117
+        Top = 6
+        Width = 95
+        Height = 59
+        BevelOuter = bvNone
+        TabOrder = 8
+        object Shape_Excluir: TShape
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Pen.Color = clRed
+          Shape = stRoundRect
+          ExplicitLeft = 40
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object Button_Excluir: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Caption = 'Excluir'
+          Flat = True
+          OnClick = Button_ExcluirClick
+          ExplicitLeft = 56
+          ExplicitTop = 16
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel_Confirma: TPanel
+        Left = 14
+        Top = 6
+        Width = 95
+        Height = 59
+        BevelOuter = bvNone
+        TabOrder = 9
+        object Shape_Confirma: TShape
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Pen.Color = clRed
+          Shape = stRoundRect
+          ExplicitLeft = 40
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object Button_Confirma: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 95
+          Height = 59
+          Align = alClient
+          Caption = 'Confirmar'
+          Flat = True
+          OnClick = Button_ConfirmaClick
+          ExplicitLeft = 56
+          ExplicitTop = 16
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+    end
+    object Panel_Fundo: TPanel
+      Left = 12
+      Top = 22
+      Width = 617
+      Height = 335
+      Align = alCustom
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      BevelOuter = bvNone
+      Color = clWhite
+      Locked = True
+      ParentBackground = False
+      TabOrder = 1
+    end
+  end
+end
